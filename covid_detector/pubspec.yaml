@@ -11,7 +11,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  google_fonts: ^2.0.0
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.1.0
+  firebase_database: ^6.1.2
+  fl_chart: ^0.36.1
+  syncfusion_flutter_charts: ^19.1.59
+  http: ^0.13.3
+  image_picker: ^0.7.4
   tflite: ^1.1.2
 
 dev_dependencies:
@@ -20,3 +26,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assests/
